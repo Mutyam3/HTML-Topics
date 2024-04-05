@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Mutyam==>Assignment03</title>
+    </head>
+
+    <body>
+        <h1>My feedback form</h1>
+
+        <form>
+            <ul>
+                <li> <b>Name:</b> <input type="text"></li>
+                <li><b>Email:</b><input type="email"></li>
+                <li><b>Password:</b><input type="password"></li>
+            </ul>
+
+            <ul>
+                <li>Please check all the emotions that apply to you: </li>
+                <ul type="disc">
+                    <li>Angry <input type="checkbox" name="emotion" value="Angry" checked="checked"></li>
+                    <li>Sad   <input type="checkbox" name="emotion" value="Sad"></li>
+                    <li>Happy <input type="checkbox" name="emotion" value="Happy"></li>
+                    <li>Ambivalent  <input type="checkbox" name="emotion" value="Ambivalent"></li>
+                </ul>
+            </ul>
+
+            <ul>
+                <li>How satisfied were you with our service?</li>
+                <ul type="disc">
+                    <li>Very satisfied<input type="radio" name="service" value="very satisfied" checked="checked"></li>
+                    <li>Satisfied<input type="radio" name="service" value="satisfied"></li>
+                    <li>Didn't care<input type="radio" name="service" value="didn't care"></li>
+                    <li>Dissatisfied<input type="radio" name="service" value="Dissatisfied"></li>
+                    <li>Very dissatisfied<input type="radio" name="Service" value="Very dissatisfied"></li>
+               </ul>
+
+               <li>Further comments:<textarea rows="3" cols="20">
+
+               </textarea></li>
+               <li>Bio photo:<input type="file" name="photo"></li>
+               <li>location visited:<select name="location">
+                                        <option disabled selected>Select Location</option>
+                                         <option value="Hyderabad">Hyderabad</option>
+                                         <option value="Secunderabad">Secunderabad</option>
+                                         <option value="Chennai">Chennai</option>
+
+                                   </select></li>
+             <li><p><input type="submit" value="Submit"></p></li>
+            </ul>
+        </form>
+    </body>
+</html>

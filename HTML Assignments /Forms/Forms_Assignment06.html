@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Mutyam==>Assignment06</title>
+    </head>
+
+    <style>
+        Section{ 
+            border: 2px solid black;
+            width:25%;
+            padding: 10px;
+        }
+
+        button{
+            padding:10px 35px 10px 35px;
+            background-color: rgb(10, 173, 10);
+            
+        }
+    </style>
+
+    <body>
+        <Section>
+
+            <h2>Your basic info</h2>
+        <form action="./" method="post">
+            <p><label for="fullname"> Name: <br>
+            <input type="text" id="fullname" name="fullname">
+            </label> </p>
+             
+            <p><label for="e-mail"> Email: <br>
+            <input type="email" id="e-mail" name="Email"> 
+            </label></p>  
+
+            <p><label for="pwd"> Password: <br>
+               <input type="password" id="pwd" name="password">
+            </label></p> 
+
+           <p>
+                <label for="age">Age: <br>
+                <input type="radio" name="age" value="under 16" id="age">
+                <label>Under 16</label><br>
+                <input type="radio" name="age" value="16 or Order" id="age">
+                <label>16 or Order</label>
+                </label>
+            </p>
+
+            <h2>Your Profile</h2>
+               
+            <p>
+                <label for="Bio"> Biography: <br>
+                <textarea id="Bio" rows="2" columns="4"></textarea>
+                </label>
+            </p>
+
+            <p>
+                <label for="courses"> Courses: <br>
+                   <select name="courses" id="courses">
+                    <optgroup label="Engineering">
+                     <option value="Cse">Computer science Engineering</option>   
+                     <option value="Eee">Electrical engineering</option>
+                     <option value="Mech">Mechanical Engineering</option>
+                     <option value="Civil">Civil Engineering</option>
+                   </optgroup>
+                   <optgroup label="Management">
+                    <option value="bm">Business Management</option>
+                    <option value="mba">MBA</option>
+                    <option value="hr">Human Resource Management</option>
+                   </optgroup>
+                   </select>
+                </label>
+            </p>
+
+            <p>
+                <label for=" interests">Interests: <br>
+                    <input type="checkbox" name="interest" value="engineering" id="interests">Engineering <br>
+                    <input type="checkbox" name="interest" value="Business" id="interests">Business
+                </label>
+            </p>
+            
+            <p>
+                <button type="submit"><b>SUBMIT</b></button>
+            </p>
+            </section>
+        </form>
+
+       </Section>
+    
+    </body>
+</html>
