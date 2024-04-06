@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <title>Mutyam==>Assignment11</title>
+    </head>
+
+    <style>
+        .line{
+            border-bottom:2px solid blue;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th{
+            font-size: larger;
+        }
+    </style>
+
+    <body>
+        <form action="" method="">
+
+        <table   align="center" width="25%" height="75%" cellpadding="15px">
+            <thead>
+
+             <tr>
+                <th colspan="4">Request for White Paper</th>
+             </tr>
+
+             <tr class="line">
+                <td colspan="4">
+                       <p> Please fill out form below, If you have any questions, please e-mail <br>
+                       <a href="mailto:white paper@ektron.com">white paper@ektron.com.</a> <br>
+                        <span style="color: red;">*</span> - required fields</p>
+                </td>
+             </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr> 
+                     <td>
+                       <label for="fname"><span style="color: red;">*</span>First Name:</label>
+                     </td>
+
+                     <td colspan="3">
+                        <input type="text" id="fname" name="firstname" required>
+                     </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="lname"><span style="color:red;">*</span>Last Name:</label>
+                    </td>
+                    <td colspan="3">
+                        <input type="text" id="lname" name="lastname" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="cname">Company Name:</label>
+                    </td>
+
+                    <td colspan="3">
+                        <input type="text" id="cname" name="companyname" size="50">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="cnamewebsite">Company/Personal<br>
+                            website:
+                        </label>
+                    </td>
+                    <td colspan="3">
+                        <input type="url" name="cnamewebsite" id="cnamewebsite" size="50">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="e-mail"><span style="color:red;">*</span>Email:</label>
+                    </td>
+                    <td colspan="3">
+                        <input type="email" name="email" id="e-mail" required>
+                    </td>
+                </tr>
+
+                 <tr>
+                    <td>
+                        <label for="phone">Phone:</label>
+                    
+                    </td>
+                    <td >
+                        <input type="tel" name="phone" id="phone">
+                    </td>
+
+                    <td>
+                        <label for="Ext">Ext:</label>
+                        
+                    </td>
+                    <td><input type="tel" name="Extension" id="Ext" size="15" >
+                    </td>
+                 </tr>
+
+                 <tr>
+                    <td>
+                        <label for="state">State/Province:</label>
+                    </td>
+                    <td colspan="3">
+                        <select id="state" name="State/Province">
+                            <option disabled selected>Select for USA or Canada Only</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Telangana">Telangana</option>
+                        </select>
+                    </td>
+                 </tr>
+
+                 <tr>
+                    <td><label for="country"><span style="color:red;">*</span>Country:</label></td>
+                    <td colspan="3"><select id="country" required >
+                        <option value="United States">United States</option>
+                        <option value="Canada">Canada</option>
+                        <option value="India">India</option>
+                    </select></td>
+                 </tr>
+
+                 <tr>
+                    <td colspan="4">
+                        <label for="comments">Comments:</label>
+                        <textarea style="overflow-y:scroll;" rows="2" cols="65" ></textarea>
+                    </td>
+                 </tr>
+
+                 
+
+
+            </tbody>
+
+              <tfoot>
+               <tr>
+                <td colspan="4" align="center"><input type="submit" value="Request for White Paper"></td>
+               </tr>
+
+                
+              </tfoot>
+
+
+
+
+        </table>
+    </form>
+    </body>
+</html>
